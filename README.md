@@ -59,7 +59,6 @@ How To Use
     getListView().setChoiceMode(ListView.CHOICE_MODE_SINGLE);
 
   2. Adapt your item layout (so the layout of a single item in your `ListView`):
-    
     * _If you only have a single `TextView` (as root) in your item layout:_
       Replace the `TextView` with a `CheckedTextView`. To remove the checkmark,
       add the attribute `android:checkMark="@null"` to the `CheckedTextView`.
