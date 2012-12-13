@@ -76,9 +76,17 @@ How To Use
      `android:state_checked` for every selector. You can use all other features.
      This is true for both, backgrounds (drawabled) and colors. 
 
+Demo
+----
+This respository contains a fully working example for the usage. You can compile
+the source and run the apk on every Android version starting from 2.0. This
+shows that it is possible to design fragment based activities even for older
+Android versions. The apk is also available for download [here][6].
 
 
    [1]: http://developer.android.com/guide/topics/resources/drawable-resource.html#StateList
    [2]: http://developer.android.com/guide/components/fragments.html
    [3]: http://developer.android.com/tools/extras/support-library.html
    [5]: https://github.com/theomega/ActivatedStateDemo/blob/master/src/de/dbruhn/android/activatedstatedemo/CheckedLinearLayout.java
+   [6]: https://www.dropbox.com/s/09zh1c2bjupn4qu/ActivatedStateDemo.apk
+
