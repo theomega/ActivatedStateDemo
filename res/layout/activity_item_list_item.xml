@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<de.dbruhn.android.activatedstatedemo.CheckedLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:orientation="vertical"    
+    android:padding="15dip"
+    android:background="@drawable/item_background"
+   
+>
+<!--  android:background="@drawable/eventlist_item_background"  -->
+
+    <!-- android:baselineAligned="false"
+    android:gravity="center_vertical"
+     android:layout_weight="1"-->
+    
+    <!-- style="?android:attr/listSeparatorTextViewStyle" -->
+
+    <CheckedTextView
+        android:id="@+id/item_text1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Country"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        android:padding="0dip"
+        android:layout_margin="0dip" android:includeFontPadding="False"
+        android:checkMark="@null"
+        android:textColor="@drawable/item_text"
+         />
+    
+    <!--         -->
+
+     <TextView
+        android:id="@+id/item_text2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Continent"
+      
+         android:checkMark="@null"
+         />  
+         
+     <!--   android:textColor="@drawable/eventlist_item_text_gray" -->
+   
+
+ 
+
+</de.dbruhn.android.activatedstatedemo.CheckedLinearLayout>
