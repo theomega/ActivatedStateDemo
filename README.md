@@ -11,7 +11,7 @@ list items.
 When introducing the new [Fragment based interface][2] on Honeycomb (Android
 3.0), a typical user interface (at least on tablets) looks like this:
 
-    ![Android Facet Based Layout](https://raw.github.com/theomega/ActivatedStateDemo/master/screenshot.png)
+![Android Facet Based Layout](https://raw.github.com/theomega/ActivatedStateDemo/master/screenshot.png)
 
 There is a `Listview` on the left side where the user can select some kind of
 ''objects''. When selecting one of these objects, the right side of the screen
@@ -60,14 +60,14 @@ How To Use
 
   2. Adapt your item layout (so the layout of a single item in your `ListView`):
     
-    - _If you only have a single `TextView` (as root) in your item layout:_
+    * _If you only have a single `TextView` (as root) in your item layout:_
       Replace the `TextView` with a `CheckedTextView`. To remove the checkmark,
       add the attribute `android:checkMark="@null"` to the `CheckedTextView`.
-    - _If you have a `LinearLayout` as root and you only need to change the
+    * _If you have a `LinearLayout` as root and you only need to change the
       background of the whole `LinearLayout` for the activated state:_ Replace
       the `LinearLayout` with the `CheckedLinearLayout` from the [source of this
       repository][5].
-    - _If you have a `LinearLayout` as root and you also need to change the
+    * _If you have a `LinearLayout` as root and you also need to change the
       appearance of the children, for example to change the text color of a
       `TextView` in the `LinearLayout`:_ Replace the `LinearLayout` with the
       `CheckedLinearLayout` as above. Also replace the `TextViews` with the
